@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-
+/* delete me */
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/my-site', function () {
     return view('welcome');
 });
